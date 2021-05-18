@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input invalid type 1`] = `
+<body>
+  <div>
+    <input
+      class="_atom_frm__base "
+      type="text"
+    />
+  </div>
+</body>
+`;
+
+exports[`Input should match snapshot default 1`] = `
+<body>
+  <div>
+    <input
+      class="_atom_frm__base "
+      type="text"
+    />
+  </div>
+</body>
+`;
+
+exports[`Input should match snapshot props 1`] = `
+<body>
+  <div>
+    <input
+      class="_atom_frm__base customCss"
+      required=""
+      type="tel"
+    />
+  </div>
+</body>
+`;
