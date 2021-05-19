@@ -8,10 +8,10 @@ const ignoreWarnings = new Set([
 ])
 
 export default {
-	input: 'src/label.js',
+	input: 'src/input.js',
 	output: [
 		{
-			file: 'dist/label.js',
+			file: 'dist/input.js',
 			format: 'es'
 		}
 	],
