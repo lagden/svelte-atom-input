@@ -9,7 +9,7 @@
     "atom",
     "component"
   ],
-  "svelte": "src/input.js",
+  "svelte": "src/Input.svelte",
   "main": "src/input.js",
   "type": "module",
   "files": [
