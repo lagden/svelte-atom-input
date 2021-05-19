@@ -4,14 +4,11 @@
 	// Props
 	export let value = ''
 
+	let className = ''
+	export {className as class}
+
 	// Bind HTML Element
 	export let node = undefined
-
-	// Class - CSS
-	const restPropsClass = String($$restProps?.class ?? '').split(' ')
-	$$restProps.class = [
-		...new Set(['_atom_frm__base', ...restPropsClass])
-	].join(' ')
 
 	// Mapa dos tipos permitidos
 	const types = new Set(['text', 'password', 'tel', 'email', 'date', 'number', 'search', 'url'])
@@ -20,6 +17,7 @@
 </script>
 
 <input
+	class="_atom_frm__base {className}"
 	bind:this={node}
 	bind:value
 	on:input
